@@ -1,0 +1,7 @@
+<div class="city-card">
+  <h3>{{ city.name }}</h3>
+  <img [src]="'https://openweathermap.org/img/wn/' + city.weather[0].icon + '@2x.png'" alt="Weather Icon" />
+  <p>Температура: {{ city.main.temp }}°C</p>
+  <p>Погода: {{ city.weather[0].description }}</p>
+  <button (click)="removeCity()">Видалити</button>
+</div>

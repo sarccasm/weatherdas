@@ -1,0 +1,10 @@
+<h1>Weather Dashboard</h1>
+<app-city-input (cityAdded)="addCity($event)"></app-city-input>
+<div class="city-list">
+  <div class="city-card" *ngFor="let city of cities">
+    <h3>{{ city.name }}</h3>
+    <p>Температура: {{ city.main.temp }}°C</p>
+    <p>Погода: {{ city.weather[0].description }}</p>
+    <button (click)="removeCity(city.name)">Видалити</button>
+  </div>
+</div>

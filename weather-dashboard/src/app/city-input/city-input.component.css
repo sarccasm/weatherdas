@@ -1,0 +1,37 @@
+.city-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .city-input-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .city-input-container input:focus {
+    border-color: #007bff;
+  }
+  
+  .city-input-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .city-input-container button:hover {
+    background-color: #0056b3;
+  }
+  

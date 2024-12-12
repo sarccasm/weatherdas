@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
